@@ -1,0 +1,34 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .blogList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .blogItem {
+    margin-bottom: 10px;
+  }
+  
+  .blogLink {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .blogLink:hover {
+    background-color: #eee;
+  }
+  
